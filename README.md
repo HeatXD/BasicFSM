@@ -1,5 +1,8 @@
 # BasicFSM
 BasicFSM is a single header state machine written in c
+# How to include it?
+On windows with gcc u should be able to just drop basicSFM.h into your project but be sure to add #define BASIC_FSM_IMPL_H above basicSFM.h/
+I havent tested other platforms.
 ## Example
 ```c
 #define BASIC_FSM_IMPL_H
@@ -98,7 +101,7 @@ ORANGE\
 ORANGE\
 ORANGE\
 Switching to RED!
-## DEPS
+## Deps
 None
 ## Sanity Checks 
 None
