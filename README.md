@@ -1,7 +1,7 @@
 # BasicFSM
 BasicFSM is a single header finite state machine written in c
 # How to include it?
-On windows with gcc u should be able to just drop basicFSM.h into your project but be sure to add 
+On windows u should be able to just drop basicFSM.h into your project but be sure to add 
 
 #define BASIC_FSM_IMPL_H before you include [basicFSM.h](https://raw.githubusercontent.com/HeatXD/BasicFSM/master/src/basicFSM.h)
 
