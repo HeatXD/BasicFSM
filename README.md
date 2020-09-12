@@ -3,9 +3,7 @@ BasicFSM is a single header state machine written in c
 ## Example
 ```c
 #define BASIC_FSM_IMPL_H
-
 #include <stdio.h>
-
 #include "basicFSM.h"
 
 // basic fsm example traffic light
