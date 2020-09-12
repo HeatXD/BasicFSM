@@ -1,5 +1,5 @@
 # BasicFSM
-BasicFSM is a single header state machine written in c
+BasicFSM is a single header finite state machine written in c
 # How to include it?
 On windows with gcc u should be able to just drop basicFSM.h into your project but be sure to add 
 
