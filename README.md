@@ -70,3 +70,31 @@ void green_light(basic_fsm_t * fsm) {
   }
 }
 ```
+## Output
+RED
+Switching to GREEN!
+GREEN
+GREEN
+GREEN
+GREEN
+Switching to ORANGE!
+ORANGE
+ORANGE
+ORANGE
+ORANGE
+Switching to RED!
+RED
+RED
+RED
+RED
+Switching to GREEN!
+GREEN
+GREEN
+GREEN
+GREEN
+Switching to ORANGE!
+ORANGE
+ORANGE
+ORANGE
+ORANGE
+Switching to RED!
