@@ -97,4 +97,4 @@ ORANGE\
 ORANGE\
 ORANGE\
 ORANGE\
-Switching to RED!\
+Switching to RED!
