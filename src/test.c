@@ -1,7 +1,5 @@
 #define BASIC_FSM_IMPL_H
-
 #include <stdio.h>
-
 #include "basicFSM.h"
 
 // basic fsm example traffic light
