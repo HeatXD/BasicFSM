@@ -17,7 +17,7 @@ int main(void) {
   int timer = 0;
 
   while (basic_fsm_state_is_valid(fsm)) {
-    basic_fsm_set_ctx(fsm, timer);
+    basic_fsm_set_ctx(fsm, &timer);
     basic_fsm_run(fsm);
     timer++;
 
@@ -30,7 +30,8 @@ int main(void) {
 }
 
 void red_light(basic_fsm_t * fsm) {
-  int t = basic_fsm_get_ctx(fsm);
+  int *ctx = basic_fsm_get_ctx(fsm);
+  int t = *ctx;
 
   if (t % 50 == 0) {
     printf("RED\n");
@@ -43,7 +44,8 @@ void red_light(basic_fsm_t * fsm) {
 }
 
 void orange_light(basic_fsm_t * fsm) {
-  int t = basic_fsm_get_ctx(fsm);
+  int *ctx = basic_fsm_get_ctx(fsm);
+  int t = *ctx;
 
   if (t % 50 == 0) {
     printf("ORANGE\n");
@@ -56,7 +58,8 @@ void orange_light(basic_fsm_t * fsm) {
 }
 
 void green_light(basic_fsm_t * fsm) {
-  int t = basic_fsm_get_ctx(fsm);
+  int *ctx = basic_fsm_get_ctx(fsm);
+  int t = *ctx;
 
   if (t % 50 == 0) {
     printf("GREEN\n");
