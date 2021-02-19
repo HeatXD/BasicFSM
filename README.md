@@ -1,3 +1,5 @@
+<img src="img/bfsm.png" width="150" height="150"> 
+
 # BasicFSM
 BasicFSM is a single header finite state machine written in c
 # How to include it?
