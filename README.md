@@ -7,7 +7,7 @@ On windows u should be able to just drop basicFSM.h into your project but be sur
 
 #define BASIC_FSM_IMPL_H **once** somewhere in your source files before you include [basicFSM.h](https://raw.githubusercontent.com/HeatXD/BasicFSM/master/src/basicFSM.h)
 
-I havent tested BasicFSM on other platforms.
+I havent tested BasicFSM on other platforms other than windows.
 ## Example
 ```c
 #define BASIC_FSM_IMPL_H
